@@ -1,0 +1,26 @@
+div{
+    width:100px;
+    height:100px;
+    margin:100px auto;
+    background-color: red;
+    transition-property:all;
+    transition-duration:0.5s;
+
+}
+
+/* transition-property :can be applicable to width or height or both etc but we need to mention it
+transistion-duration makes the transistion softly and slowly */
+
+
+div:hover{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background-color:#39A388;
+    transform:rotate(180deg);
+}
+
+/* if we keep active in place of hover then while we press then only it will work it means we need to click and hold to se ethe change */
+
+/* transform is used to rotate an for other things and for anti clockwise put - sign */
+

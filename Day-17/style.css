@@ -1,0 +1,23 @@
+a:hover{
+    color:yellow;
+
+}
+
+a:visited{
+    color:red;
+}
+
+
+
+/* this is for changing the default blue color of links to green */
+ /* a:link{
+    color:green;  
+}  */
+
+
+/* this active is like when when we press in the mean time of loading i t will be in black color */
+a:active{
+    color:BLACK;
+}
+
+

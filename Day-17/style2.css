@@ -1,0 +1,36 @@
+.box{
+    height:100px;
+    width:100px;
+    border:1px solid black;
+    animation: 10s abc infinite;
+    animation-delay:2s;
+}
+/* abc is keyframe name here and infinte means infinite number of times */
+/* animation delay is the time between two animation cycles */
+/* keyframes are used to provide transistion in given time span here we gave 10 sec */
+/* 20% of 10 sec one type
+50% of 10 sec one type */
+
+@keyframes abc{
+    20%{
+        margin-left:500px;
+        background-color: red;
+    }
+    50%{
+        margin-left:500px;
+        background-color: black;
+        transform: rotate(30deg);
+        
+    }
+    70%{
+        margin-left:250px;
+        
+    }
+    90%{
+        margin-left:900px;
+        border-radius:50%;
+    }
+
+    
+
+}
